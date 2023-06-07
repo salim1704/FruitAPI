@@ -5,6 +5,7 @@ const app = express()
 
 // const logger = require("./logger")
 //app.use('logger')
+app.use(cors())
 
 app.use('/fruits', express.json())
 
